@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "NFT Selling Platform",
+    description: "A clean and aesthetic NFT website built with pure HTML, CSS, and Javascript perfect for showcasing and selling digital assests.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Javascript", "CSS", "HTML"],
+    demoUrl: "https://metalink-nft-selling-platform.vercel.app/",
+    githubUrl: "https://github.com/Ayushsingh48/Metalink-NFT-selling-Platform",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "AI Coach",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Smart AI Coach helps you practice interviews and build resumes instantly with AI, your smart companion for carrer success.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["JavaScript", "Next.js", "React", "Firebase", "Vapi AI"],
+    demoUrl: "https://github.com/Ayushsingh48/AI-Coach",
+    githubUrl: "https://github.com/Ayushsingh48/AI-Coach",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Lumora AI",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Lumora AI is a smart GPT-like chatbot that delivers fast, human-like responses for seamless, intelligent conversations with helpful nature.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Javascript", "Hugging Face"],
+    demoUrl: "https://github.com/Ayushsingh48/LumoraAI",
+    githubUrl: "https://github.com/Ayushsingh48/LumoraAI",
   },
 ];
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Ayushsingh48"
           >
             Check My Github <ArrowRight size={16} />
           </a>
