@@ -16,16 +16,11 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              With hands-on experience in web development, blockchain, artificial intelligence, and UI/UX design, I love building digital experiences that are not just powerful and scalable — but also intuitive and enjoyable to use. Whether it’s creating dynamic websites, designing clean and thoughtful interfaces, developing smart contracts, or integrating AI to solve real-world problems.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I focus on making tech feel seamless and meaningful for users. I believe the best solutions come from blending creativity with functionality. The tech world moves fast, and I enjoy staying on the edge — experimenting with new frameworks, tools, and ideas that can push my work forward. At the end of the day, my goal is simple: to turn complex challenges into simple, user-first products that make a real impact.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,10 +30,11 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="/resume.pdf"
+                download="Resume.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+                Download Resume
               </a>
             </div>
           </div>
@@ -52,8 +48,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Web Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Crafting responsive, accessible, and high-performance websites using modern technologies like React, Next.js, and Tailwind CSS. 
                   </p>
                 </div>
               </div>
@@ -66,8 +61,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">UI/UX Design</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    I design using tools like Figma and Canva, along with modern design platforms such as Adobe XD and Illustrator to create clean, user-focused interfaces.
                   </p>
                 </div>
               </div>
@@ -79,10 +73,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Blockchain Developer</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Building decentralized applications (dApps) and smart contracts with a strong focus on security, scalability, and real-world utility. Skilled in technologies like Solidity.
                   </p>
                 </div>
               </div>
